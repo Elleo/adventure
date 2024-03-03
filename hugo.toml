@@ -1,3 +1,65 @@
 baseURL = 'https://adventure.mikeasoft.com/'
 languageCode = 'en-gb'
-title = 'Creating Adventure Games With Blade Coder Engine 4.3'
+title = "Mike's Adventure Tutorials"
+theme        = "hello-friend-ng"
+
+copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "A guide to creating point and click adventure games with Blade Coder Engine 4.3"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  enableThemeToggle = true
+
+  # Metadata mostly used in document's head
+  description = ""
+  keywords = "open source, foss, 90s, point and click, adventure, adventure game, game, games"
+  images = [""]
+
+  [params.author]
+    name = "Mike Sheldon"
+
+  [params.footer]
+    rss = false
+    copyright = false
+    author = false
+    bottomText = [
+      "Licensed under the <a href='https://creativecommons.org/licenses/by/4.0/deed.en'>Creative Commons Attribution 4.0 International</a> license</a><br />Written by <a href=\"https://octodon.social/@mikesheldon\">Mike Sheldon</a>"
+    ]
+
+  [params.logo]
+    logoText = "Use razor on yak"
+    logoCursorDisabled = true
+
+[taxonomies]
+    category = "tutorials"
+    tag      = "tags"
+    series   = "series"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "tutorials"
+    name       = "Tutorials"
+    url        = "/tutorials"
+  [[menu.main]]
+    weight = 2
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact"
+ 
+
